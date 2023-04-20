@@ -8,7 +8,7 @@ class A
 }
 class B extends A
 {
-    
+    @Override
     public void usingDeprecatedMethod()
     {
         System.out.println("Deprecated method in B");
@@ -18,7 +18,7 @@ class Annot
 {
 public static void main(String a[]) 
   {
-     A obj = new A();
+     A obj = new B();
      obj.usingDeprecatedMethod();
   }
 }

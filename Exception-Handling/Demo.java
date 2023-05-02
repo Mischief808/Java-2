@@ -1,6 +1,6 @@
 class Demo
 {
-    public void checkAge(int age)
+    public  static void checkAge(int age)
     {
         if(age<18)
         {
@@ -13,7 +13,6 @@ class Demo
     }
     public static void main(String g[])
     {
-        Demo d = new Demo();
-        d.checkAge(15);
+        Demo.checkAge(15);
     }
 }

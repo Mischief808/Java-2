@@ -9,7 +9,11 @@ class Handle
         } 
         catch(Exception e) 
         {
-            System.out.println("You are giving excessed Index" +e);
+            System.out.println("You are giving excessed Index \n " +e);
+        }
+        finally 
+        {
+            System.out.println("End of code");
         }
     }  
 }

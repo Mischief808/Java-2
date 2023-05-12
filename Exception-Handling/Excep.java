@@ -13,7 +13,7 @@ class Excep
         }
         finally
         {
-             System.out.println("Bye");
+             System.out.println("End");
         }
     }
 }

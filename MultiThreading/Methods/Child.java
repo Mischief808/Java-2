@@ -4,11 +4,11 @@ class Child extends Thread
     {
         for(int i=1;i<=5;i++)
         {
-            Thread.yield();
+            Thread.yield();//yield Method
             System.out.println("Child Thread " +i);
             try
             {
-            Thread.sleep(1000);
+            Thread.sleep(1000);//sleep method
             }
             catch(InterruptedException e)
             {

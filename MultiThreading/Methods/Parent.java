@@ -6,6 +6,7 @@ class Parent extends Child
        c.start();
        c.interrupt();//Interupt Method
        c.interrupt();
+       c.interrupt();
        for(int i=1;i<=5;i++)
        {
            System.out.println("Main Thread " +i);

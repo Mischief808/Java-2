@@ -12,7 +12,7 @@ class Child extends Thread
             }
             catch(InterruptedException e)
             {
-                System.out.println(e);
+                System.out.println("Sleep is Interupted");
             }
         }
     }

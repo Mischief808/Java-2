@@ -11,7 +11,7 @@ class Sort
         {
             System.out.println(b);
         }
-        System.out.println("...........AFter Sorting..........");
+        System.out.println("...........AFter Sorting using Comparator..........");
         Comparator com = new ComparatorDemo();
         Arrays.sort(bike,com);
         for(String b:bike)

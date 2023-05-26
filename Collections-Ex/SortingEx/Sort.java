@@ -5,7 +5,7 @@ class Sort
 {
     public static void main(String a[])
     {
-        String[] bike = {"Kawasaki","BMW","Ducati","Yamaha"};
+        String[] bike = {"Kawasaki","BMW","yamaha","Ducati"};
         System.out.println("..........Before Sorting..........");
         for(String b:bike)
         {
@@ -19,4 +19,4 @@ class Sort
             System.out.println(b);
         }
     }
-}
+}   

@@ -2,9 +2,9 @@ class Child extends Thread
 {
     public void run()
     {
-        for(int i=1;i<=5;i++)
+        for(int i=1;i<6;i++)
         {
-            Thread.yield();//yield Method
+            // Thread.yield();//yield Method
             System.out.println("Child Thread " +i);
             try
             {

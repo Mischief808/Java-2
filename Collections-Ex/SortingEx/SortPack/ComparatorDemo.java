@@ -15,23 +15,23 @@ public class ComparatorDemo implements Comparator
         // return 0;
 
         //Ascending order by length of string
-        // if(s1.length() > s2.length())
-        // return 1;
-        // else if(s1.length() < s2.length())
-        // return -1;
-        // else 
-        // return 0;
-
-        int result = s1.compareTo(s2);
-
-        //Ascending order by alphabets
-    
-        if(result>0)
+        if(s1.length() > s2.length())
         return 1;
-        else if(result<0)
+        else if(s1.length() < s2.length())
         return -1;
         else 
         return 0;
+
+        // int result = s1.compareTo(s2);
+
+        //Ascending order by alphabets
+    
+        // if(result>0)
+        // return 1;
+        // else if(result<0)
+        // return -1;
+        // else 
+        // return 0;
         
         //Descending order by alphabets
         // if(result>0)

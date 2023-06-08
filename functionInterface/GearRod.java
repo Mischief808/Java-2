@@ -1,14 +1,14 @@
 @FunctionalInterface
-interface Gear
+interface Gears
 {
    void rod();
 }
-class GearRod
+class GearRods
 {
     public static void main(String d[])
     {
     //This is Anonymous Inner class
-    Gear g = new Gear()
+    Gears g = new Gears()
     { 
      public void rod()
       {

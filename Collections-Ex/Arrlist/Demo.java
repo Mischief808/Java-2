@@ -12,5 +12,9 @@ class Demo
         ob.add(56.78);
         ob.add(false);
         System.out.println(ob);
+        System.out.println(ob.get(3));
+        System.out.println(ob.contains("Prabhu"));
+        ob.remove(4);
+        System.out.println(ob);
     }
 }

@@ -9,7 +9,7 @@ class Excep
         }
         catch(Exception e)
         {
-            System.out.println("It's wrong" +"\n" +e);
+            System.out.println("It is wrong" +"\n" +e);
         }
         finally
         {

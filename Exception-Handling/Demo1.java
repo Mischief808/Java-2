@@ -13,8 +13,8 @@ class Demo1
         int j=0;
         try
         {
-            j=18/i;
-            // j=i/18;
+            // j=18/i;
+            j=i/18;
             if(j==0)
             throw new MyOwnException("Don't want to print j as zero");
         }  

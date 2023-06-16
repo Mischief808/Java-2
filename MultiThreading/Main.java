@@ -6,13 +6,13 @@ class Mult4 extends Thread
         for(int i=0;i<40;i=i+4)
         {
             System.out.println(i);
-            try{
-                Thread.sleep(1000);
-            }
-            catch(InterruptedException e)
-            {
-                  System.out.println(e);
-            }
+            // try{
+            //     Thread.sleep(1000); //Making Thread to sleep for 1 second
+            // }
+            // catch(InterruptedException e)
+            // {
+            //       System.out.println(e);
+            // }
         }
     }
 }
@@ -24,13 +24,13 @@ class Mult5 extends Thread
         for(int i=0;i<40;i=i+5)
         {
             System.out.println(i);
-            try{
-                Thread.sleep(1000);
-            }
-            catch(InterruptedException e)
-            {
-                System.out.println(e);
-            }
+            // try{
+            //     Thread.sleep(1000); //Making Thread to sleep for 1 second
+            // }
+            // catch(InterruptedException e)
+            // {
+            //     System.out.println(e);
+            // }
         }
     }
 }
@@ -44,6 +44,6 @@ class Main
         obj1.start();
         obj.join();
         obj1.join();
-        System.out.println("End");
+        System.out.println("Thank you");
     }
 }
